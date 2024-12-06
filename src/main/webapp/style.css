@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* Navbar Styling */
+.navbar {
+    background-color: #A5B68D; /* Background of navbar */
+    position: fixed; /* Fix it to the left side */
+    top: 0;
+    left: 0;
+    height: 100%; /* Full height of the page */
+    width: 160px; /* Width of the navbar */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #FCFAEE; /* Text color */
+    padding: 15px 20px;
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    border-bottom: 1px solid #ECDFCC; /* Border between links */
+}
+
+.navbar a:hover {
+    background-color: #DA8359; /* Background color on hover */
+    color: #FCFAEE; /* Text color on hover */
+}
+
+body {
+    margin-left: 220px; /* Space for the fixed navbar */
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    color: #DA8359; /* Title color */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCFAEE; /* Light background */
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    width: 450px; /* Fixed width for the form */
+    background-color: #ECDFCC; /* Light background for the form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 50px auto; /* Centered in the page */
+}
+
+h3 {
+    color: #DA8359; /* Color for the heading */
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+label {
+    color: #5C7373;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="password"], input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #A5B68D; /* Border color */
+    border-radius: 5px;
+    background-color: #FCFAEE; /* Input background color */
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #A5B68D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #DA8359; /* Change color on hover */
+}
+
+
+
